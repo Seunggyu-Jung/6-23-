@@ -65,6 +65,7 @@ print("나는 {1}색과 {0}색을 좋아합니다.".format("파란", "빨간")) 
 - age = 20 , color = "빨간" `print(f"나는 {age}살이며, {color}색을 좋아한다.") -> 나는 20살이며, 빨간색을 좋아한다.`
 
 
+
 ## 5. 탈출문자
 
 - \n : 줄바꿈
@@ -74,5 +75,35 @@ print("백문이 불여일견\n백견이 불여일타") ->
 백견이 불여일타
 ```
 
+- \" \' : 문자 내에서 따옴표
+```
+저는 "나도코딩" 입니다.
+print("저는 \"나도코딩\"입니다.")
+print('저는 \'나도코딩\'입니다.')
+```
+
+- \\ : 문장내에서 \
+```
+print( "C:\\Users\\wswm2\\Desktop\\python worksplace>") ->
+C:\Users\wswm2\Desktop\python worksplace>
+```
+
+- \r : \r뒤의 문자열을 맨 앞으로 이동
+```
+print("Red apple\rpine") ->
+pineapple
+```
+
+- \b : 백스페이스 (바로 앞의 글자 삭제)
+```
+print("Redd\bapple") -> 
+Redapple
+```
+
+\t : 탭 (탭만큼 뒤로 빠짐)
+```
+print("Red\tApple") -> 
+Red     Apple
+```
 
 
