@@ -75,14 +75,14 @@ print("백문이 불여일견\n백견이 불여일타") ->
 백견이 불여일타
 ```
 
-- \" \' : 문자 내에서 따옴표
+- `\" \'` : 문자 내에서 따옴표
 ```
 저는 "나도코딩" 입니다.
 print("저는 \"나도코딩\"입니다.")
 print('저는 \'나도코딩\'입니다.')
 ```
 
-- \\ : 문장내에서 \
+- `\\ `: 문장내에서 \
 ```
 print( "C:\\Users\\wswm2\\Desktop\\python worksplace>") ->
 C:\Users\wswm2\Desktop\python worksplace>
@@ -100,7 +100,7 @@ print("Redd\bapple") ->
 Redapple
 ```
 
-\t : 탭 (탭만큼 뒤로 빠짐)
+- \t : 탭 (탭만큼 뒤로 빠짐)
 ```
 print("Red\tApple") -> 
 Red     Apple
